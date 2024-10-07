@@ -34,7 +34,7 @@
     });
   };
 
-  fakeMsg = ["Hi there, I\'m Kelly and you?", "Nice to meet you", "How are you doing?", "Pretty good", "How\'s life been treating you?", "It could be worse, thanks", "I\'ve gotta go now", "It was a pleasure chat with you", "Bye :)"];
+  fakeMsg = ["Halo, Saya Admin STIKes Bakti Utama Pati dan kamu?", "Senang berkenalan denganmu", "Apakah kamu ingin mengunduh E-BOOK Wisuda XVIII?", "Kamu dapat mengunduh E-BOOK Wisuda XVIII pada tanggal 31 Oktober 2024", "See You :)"];
 
   window.setFakeMessage = function() {
     var typing;
