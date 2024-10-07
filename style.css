@@ -66,9 +66,9 @@ body {
   letter-spacing: 1px;
 }
 body .chat {
-  width: 300px;
-  height: 80vh;
-  max-height: 500px;
+  width: 90%; /* Diubah dari 300px agar lebih responsif */
+  height: 85vh;
+  max-height: 600px; /* Ukuran maksimal lebih besar */
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -76,32 +76,32 @@ body .chat {
 body .chat-title {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 50px;
+  height: 60px; /* Lebih besar */
 }
 body .chat-title h2 {
   margin: 10px 0;
   padding: 0;
   color: #f0f0f0;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px; /* Ditingkatkan agar lebih terbaca */
   display: inline-block;
-  line-height: 30px;
+  line-height: 40px; /* Ditingkatkan */
 }
 body .chat-title .avatar {
   float: left;
   margin: 10px;
   padding: 0;
-  width: 30px;
-  height: 30px;
+  width: 40px; /* Lebih besar */
+  height: 40px;
 }
 body .chat-title .avatar img {
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 40px; /* Sesuaikan dengan avatar */
+  height: 40px;
 }
 body .messages {
   width: 100%;
-  height: calc(100% - 90px);
+  height: calc(100% - 100px); /* Lebih banyak ruang untuk pesan */
 }
 body .messages-content {
   width: 100%;
@@ -111,13 +111,13 @@ body .messages-content {
 }
 body .messages-content .message {
   max-width: calc(100% - 76px);
-  padding: 8px;
-  margin: 8px 0 8px 12px;
+  padding: 10px; /* Lebih besar */
+  margin: 10px 0 10px 12px; /* Lebih besar */
   border-radius: 5px;
   background-color: rgba(170, 187, 204, 0.1);
   color: #e3e3e3;
   float: left;
-  font-size: 13px;
+  font-size: 16px; /* Lebih besar agar terbaca */
   position: relative;
   word-break: break-all;
   clear: both;
@@ -125,42 +125,42 @@ body .messages-content .message {
 }
 body .messages-content .message .timestamp {
   position: absolute;
-  right: -40px;
+  right: -45px;
   bottom: 0;
-  font-size: 12px;
+  font-size: 14px; /* Ukuran waktu pesan diperbesar */
   color: #bababa;
 }
 body .messages-content .message.personal {
   float: right;
-  margin: 8px 12px 8px 0;
+  margin: 10px 12px 10px 0;
 }
 body .messages-content .message.personal .timestamp {
   right: auto;
-  left: -40px;
+  left: -45px;
 }
 body .messages-content .message.typing {
-  width: 30px;
-  height: 16px;
+  width: 40px; /* Lebih besar */
+  height: 20px; /* Lebih besar */
 }
 body .messages-content .message.typing::after {
   content: "";
   border-radius: 50%;
-  width: 3px;
-  height: 3px;
+  width: 5px; /* Diperbesar */
+  height: 5px;
   background-color: white;
   transform: translate(-50%, -50%);
   animation: ball 1.2s infinite linear;
 }
 body .messages-content .message.typing span {
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   transform: translate(-50%, -50%);
 }
 body .messages-content .message.typing span::before, body .messages-content .message.typing span::after {
   content: "";
   border-radius: 50%;
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   position: absolute;
   background-color: white;
   animation: ball 1.2s infinite linear;
@@ -176,7 +176,7 @@ body .messages-content .message.typing span::after {
 body .action-box {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 40px;
+  height: 50px; /* Lebih tinggi */
 }
 body .action-box-input, body .action-box-submit {
   box-sizing: border-box;
@@ -184,25 +184,25 @@ body .action-box-input, body .action-box-submit {
   float: left;
 }
 body .action-box-input {
-  width: calc(100% - 60px);
-  height: 20px;
+  width: calc(100% - 70px);
+  height: 30px; /* Lebih tinggi */
   background-color: transparent;
   resize: none;
   color: white;
   margin: 10px 0;
   padding: 0 10px;
-  line-height: 20px;
-  font-size: 16px;
+  line-height: 30px; /* Tingkatkan line-height */
+  font-size: 16px; /* Sesuaikan ukuran font */
   letter-spacing: 1px;
   overflow: hidden;
 }
 body .action-box-input::-webkit-input-placeholder {
-  line-height: 20px;
-  font-size: 13px;
+  line-height: 30px;
+  font-size: 16px; /* Lebih besar */
 }
 body .action-box-submit {
-  width: 60px;
-  height: 40px;
+  width: 70px; /* Lebih besar */
+  height: 50px; /* Lebih besar */
   background-color: rgba(189, 195, 199, 0.2);
   color: white;
   cursor: pointer;
