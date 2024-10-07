@@ -117,7 +117,7 @@ body .messages-content .message {
   background-color: rgba(170, 187, 204, 0.1);
   color: #e3e3e3;
   float: left;
-  font-size: 16px; /* Lebih besar agar terbaca */
+  font-size: 40px; /* Lebih besar agar terbaca */
   position: relative;
   word-break: break-all;
   clear: both;
