@@ -66,9 +66,9 @@ body {
   letter-spacing: 1px;
 }
 body .chat {
-  width: 90%; /* Diubah dari 300px agar lebih responsif */
+  width: 70%; /* Diubah dari 300px agar lebih responsif */
   height: 85vh;
-  max-height: 600px; /* Ukuran maksimal lebih besar */
+  max-height: 100%; /* Ukuran maksimal lebih besar */
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
