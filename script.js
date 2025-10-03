@@ -34,7 +34,7 @@
     });
   };
 
-  fakeMsg = ["Halo, Saya Admin STIKes Bakti Utama Pati dan kamu?", "Senang berkenalan denganmu", "Apakah kamu ingin mengunduh E-BOOK Wisuda XVIII?", "Kamu dapat mengunduh E-BOOK Wisuda XVIII dengan menekan tombol Download dibawah ini, Terimakasih", "See You :)"];
+  fakeMsg = ["Halo, Saya Admin STIKes Bakti Utama Pati dan kamu?", "Senang berkenalan denganmu", "Apakah kamu ingin mengunduh E-BOOK Wisuda XIX?", "Kamu dapat mengunduh E-BOOK Wisuda XIX dengan menekan tombol Download dibawah ini, Terimakasih", "See You :)"];
 
   window.setFakeMessage = function() {
     var typing;
